@@ -17,6 +17,11 @@
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org)
 [![Build](https://img.shields.io/github/actions/workflow/status/Maustral/omniclaw/ci.yml)](https://github.com/Maustral/omniclaw/actions)
 
+### Follow the Developer
+<a href="https://instagram.com/yojancelm02">
+  <img src="https://img.shields.io/badge/Instagram-yojancelm02-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Follow on Instagram"/>
+</a>
+
 ---
 
 ## Features
