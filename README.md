@@ -240,4 +240,4 @@ omniclaw/
 
 ## License
 
-Dual-licensed under **MIT** and **Apache 2.0**.
+Dual-licensed under **https://github.com/Maustral MIT** and **Apache 2.0**.
