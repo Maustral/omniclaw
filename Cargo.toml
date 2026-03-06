@@ -1,0 +1,58 @@
+[package]
+name = "omniclaw"
+version = "1.0.0"
+edition = "2021"
+description = "Unified CI/CD Security Scanner - Advanced defense against HackerBot-Claw and general CI/CD vulnerabilities"
+authors = ["OmniClaw Team"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/omniclaw/omniclaw"
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+regex = "1.10"
+lazy_static = "1.4"
+clap = { version = "4.4", features = ["derive", "env"] }
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1.0"
+walkdir = "2.4"
+chrono = "0.4"
+
+# Cryptography dependencies
+aes-gcm = "0.10"
+rand = "0.8"
+sha2 = "0.10"
+base64 = "0.21"
+hex = "0.4"
+
+# Advanced features dependencies
+toml = "0.8"
+tempfile = "3.8"
+glob = "0.3"
+uriparse = "0.6"
+toml_edit = "0.19"
+
+[features]
+default = ["cli"]
+cli = []
+
+[[bin]]
+name = "omniclaw"
+path = "src/main.rs"
+
+[[bin]]
+name = "omniclaw-mcp"
+path = "src/mcp/main.rs"
+
+[lib]
+name = "omniclaw"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = true

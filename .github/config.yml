@@ -1,0 +1,19 @@
+# OmniClaw GitHub Configuration
+
+repository:
+  features:
+    issues: true
+    pull_requests: true
+    wiki: false
+    projects: false
+    security_tab: true
+
+branch_protection:
+  main:
+    require_pr_reviews: true
+    require_status_checks: true
+    include_administrators: true
+
+community:
+  default_branch: main
+
