@@ -1,12 +1,13 @@
 # OmniClaw 🦷⚡
 
 <p align="center">
-  <img src="assets/logos/logo.svg" alt="OmniClaw - Unified CI/CD Security Scanner" width="400" />
+  <img src="assets/logos/omniclaw_animated.svg" alt="OmniClaw - Unified CI/CD Security Scanner" width="800" />
 </p>
 
 <p align="center">
-  <img src="assets/logos/omniclaw_logo.svg" alt="OmniClaw Banner" width="600" />
+  <img src="assets/logos/logo.svg" alt="OmniClaw Logo" width="200" />
 </p>
+
 
 **Unified CI/CD Security Scanner** — Comprehensive security analysis for CI/CD pipelines.
 
