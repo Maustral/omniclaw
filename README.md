@@ -225,6 +225,18 @@ omniclaw/
 5. **Cryptographic Security**: Protect your scan results
 6. **Multi-Platform**: GitHub, GitLab, Jenkins, and more
 
+
+---
+
+## Contributors
+
+<a href="https://github.com/Maustral/OmniClaw/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Maustral/OmniClaw" />
+</a>
+
+---
+
+
 ---
 
 ## License
