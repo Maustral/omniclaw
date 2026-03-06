@@ -1,8 +1,16 @@
-# OmniClaw 
+# OmniClaw 🦷⚡
+
+<p align="center">
+  <img src="assets/logos/logo.svg" alt="OmniClaw Logo" width="200" />
+</p>
 
 **Unified CI/CD Security Scanner** — Comprehensive security analysis for CI/CD pipelines.
 
-OmniClaw is a native security scanner designed to identify vulnerabilities in CI/CD workflows and protect against common attack vectors.
+[![GitHub Stars](https://img.shields.io/github/stars/Maustral/omniclaw?style=social)](https://github.com/Maustral/omniclaw/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Maustral/omniclaw?style=social)](https://github.com/Maustral/omniclaw/network)
+[![License](https://img.shields.io/github/license/Maustral/omniclaw)](LICENSE)
+[![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org)
+[![Build](https://img.shields.io/github/actions/workflow/status/Maustral/omniclaw/ci.yml)](https://github.com/Maustral/omniclaw/actions)
 
 ---
 
@@ -71,7 +79,6 @@ OmniClaw is a native security scanner designed to identify vulnerabilities in CI
 - **PayloadGenerator**: Generate test payloads for security testing
 
 ### 🛡️ Defensive Security Tools
-
 - **PipelineHardener**: Analyze workflows and provide hardening recommendations
 - **VulnerabilityMitigator**: Generate mitigations for known vulnerability patterns
 - **DefensiveScanner**: Scan for security misconfigurations
